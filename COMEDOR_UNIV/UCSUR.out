@@ -1,0 +1,184 @@
+
+                                      ARENA Simulation Results
+                                               ACER HD
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/ 9/2017
+Analyst: Rockwell Automation                                         Model revision date:12/ 9/2017
+
+Replication ended at time      : 4.1396889 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cliente.VATime                              1.4544     (Insuf)    1.4544     1.4544          1    
+Cliente.NVATime                             .07951     (Insuf)    .07951     .07951          1    
+Cliente.WaitTime                            .00000     (Insuf)    .00000     .00000          1    
+Cliente.TranTime                            2.2171     (Insuf)    2.2171     2.2171          1    
+Cliente.OtherTime                           .00000     (Insuf)    .00000     .00000          1    
+Cliente.TotalTime                           3.7510     (Insuf)    3.7510     3.7510          1    
+Comsumir Menu.Queue.WaitingTime             .60461     (Insuf)    .00000     1.0838          3    
+EleccionPlato y Pago.Queue.WaitingTime      1.4201     (Insuf)    .00000     3.1363         14    
+Esperar en mesa.Queue.WaitingTime           .00672     (Insuf)    .00000     .02017          3    
+Recoger menu.Queue.WaitingTime              .00742     (Insuf)    .00000     .06679          9    
+Poner en su lugar2.Queue.WaitingTime            --         --         --         --          0
+Poner en su lugar.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000          1    
+Consumir Plato.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 13.453     (Insuf)    .00000     20.000     19.000    
+ConsumirMenu.NumberBusy                     .59040     (Insuf)    .00000     1.0000     1.0000    
+ConsumirMenu.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ConsumirMenu.Utilization                    .59040     (Insuf)    .00000     1.0000     1.0000    
+Caja.NumberBusy                             .99503     (Insuf)    .00000     1.0000     1.0000    
+Caja.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Caja.Utilization                            .99503     (Insuf)    .00000     1.0000     1.0000    
+ConsumirPlato.NumberBusy                    .14794     (Insuf)    .00000     1.0000     1.0000    
+ConsumirPlato.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ConsumirPlato.Utilization                   .14794     (Insuf)    .00000     1.0000     1.0000    
+RecogerMenu.NumberBusy                      .24759     (Insuf)    .00000     1.0000     1.0000    
+RecogerMenu.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RecogerMenu.Utilization                     .24759     (Insuf)    .00000     1.0000     1.0000    
+T.E.EspecialPlato.NumberBusy                .23121     (Insuf)    .00000     1.0000     .00000    
+T.E.EspecialPlato.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+T.E.EspecialPlato.Utilization               .23121     (Insuf)    .00000     1.0000     .00000    
+EntregaBandeja.NumberBusy                   .01921     (Insuf)    .00000     1.0000     .00000    
+EntregaBandeja.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+EntregaBandeja.Utilization                  .01921     (Insuf)    .00000     1.0000     .00000    
+EntregaBandeja1.NumberBusy                  .00000     (Insuf)    .00000     .00000     .00000    
+EntregaBandeja1.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+EntregaBandeja1.Utilization                 .00000     (Insuf)    .00000     .00000     .00000    
+Comsumir Menu.Queue.NumberInQueue           1.1657     (Insuf)    .00000     3.0000     3.0000    
+EleccionPlato y Pago.Queue.NumberInQueue    6.8313     (Insuf)    .00000     12.000     6.0000    
+Esperar en mesa.Queue.NumberInQueue         .00487     (Insuf)    .00000     1.0000     .00000    
+Recoger menu.Queue.NumberInQueue            .01613     (Insuf)    .00000     1.0000     .00000    
+Poner en su lugar2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Poner en su lugar.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Consumir Plato.Queue.NumberInQueue          .07995     (Insuf)    .00000     1.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            20.000    
+Cliente.NumberOut                           1.0000    
+ConsumirMenu.NumberSeized                   3.0000    
+ConsumirMenu.ScheduledUtilization           .59040    
+Caja.NumberSeized                           14.000    
+Caja.ScheduledUtilization                   .99503    
+ConsumirPlato.NumberSeized                  1.0000    
+ConsumirPlato.ScheduledUtilization          .14794    
+RecogerMenu.NumberSeized                    9.0000    
+RecogerMenu.ScheduledUtilization            .24759    
+T.E.EspecialPlato.NumberSeized              3.0000    
+T.E.EspecialPlato.ScheduledUtilization      .23121    
+EntregaBandeja.NumberSeized                 1.0000    
+EntregaBandeja.ScheduledUtilization         .01921    
+EntregaBandeja1.NumberSeized                .00000    
+EntregaBandeja1.ScheduledUtilization        .00000    
+System.NumberOut                            1.0000    
+
+
+Simulation run time: 0.73 minutes.
+Simulation run complete.
+
+                                      ARENA Simulation Results
+                                               ACER HD
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/ 9/2017
+Analyst: Rockwell Automation                                         Model revision date:12/ 9/2017
+
+Replication ended at time      : 4.1396889 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cliente.VATime                              1.4544     (Insuf)    1.4544     1.4544          1    
+Cliente.NVATime                             .07951     (Insuf)    .07951     .07951          1    
+Cliente.WaitTime                            .00000     (Insuf)    .00000     .00000          1    
+Cliente.TranTime                            2.2171     (Insuf)    2.2171     2.2171          1    
+Cliente.OtherTime                           .00000     (Insuf)    .00000     .00000          1    
+Cliente.TotalTime                           3.7510     (Insuf)    3.7510     3.7510          1    
+Comsumir Menu.Queue.WaitingTime             .60461     (Insuf)    .00000     1.0838          3    
+EleccionPlato y Pago.Queue.WaitingTime      1.4201     (Insuf)    .00000     3.1363         14    
+Esperar en mesa.Queue.WaitingTime           .00672     (Insuf)    .00000     .02017          3    
+Recoger menu.Queue.WaitingTime              .00742     (Insuf)    .00000     .06679          9    
+Poner en su lugar2.Queue.WaitingTime            --         --         --         --          0
+Poner en su lugar.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000          1    
+Consumir Plato.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 13.453     (Insuf)    .00000     20.000     19.000    
+ConsumirMenu.NumberBusy                     .59040     (Insuf)    .00000     1.0000     1.0000    
+ConsumirMenu.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ConsumirMenu.Utilization                    .59040     (Insuf)    .00000     1.0000     1.0000    
+Caja.NumberBusy                             .99503     (Insuf)    .00000     1.0000     1.0000    
+Caja.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Caja.Utilization                            .99503     (Insuf)    .00000     1.0000     1.0000    
+ConsumirPlato.NumberBusy                    .14794     (Insuf)    .00000     1.0000     1.0000    
+ConsumirPlato.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ConsumirPlato.Utilization                   .14794     (Insuf)    .00000     1.0000     1.0000    
+RecogerMenu.NumberBusy                      .24759     (Insuf)    .00000     1.0000     1.0000    
+RecogerMenu.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+RecogerMenu.Utilization                     .24759     (Insuf)    .00000     1.0000     1.0000    
+T.E.EspecialPlato.NumberBusy                .23121     (Insuf)    .00000     1.0000     .00000    
+T.E.EspecialPlato.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+T.E.EspecialPlato.Utilization               .23121     (Insuf)    .00000     1.0000     .00000    
+EntregaBandeja.NumberBusy                   .01921     (Insuf)    .00000     1.0000     .00000    
+EntregaBandeja.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+EntregaBandeja.Utilization                  .01921     (Insuf)    .00000     1.0000     .00000    
+EntregaBandeja1.NumberBusy                  .00000     (Insuf)    .00000     .00000     .00000    
+EntregaBandeja1.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+EntregaBandeja1.Utilization                 .00000     (Insuf)    .00000     .00000     .00000    
+Comsumir Menu.Queue.NumberInQueue           1.1657     (Insuf)    .00000     3.0000     3.0000    
+EleccionPlato y Pago.Queue.NumberInQueue    6.8313     (Insuf)    .00000     12.000     6.0000    
+Esperar en mesa.Queue.NumberInQueue         .00487     (Insuf)    .00000     1.0000     .00000    
+Recoger menu.Queue.NumberInQueue            .01613     (Insuf)    .00000     1.0000     .00000    
+Poner en su lugar2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Poner en su lugar.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Consumir Plato.Queue.NumberInQueue          .07995     (Insuf)    .00000     1.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            20.000    
+Cliente.NumberOut                           1.0000    
+ConsumirMenu.NumberSeized                   3.0000    
+ConsumirMenu.ScheduledUtilization           .59040    
+Caja.NumberSeized                           14.000    
+Caja.ScheduledUtilization                   .99503    
+ConsumirPlato.NumberSeized                  1.0000    
+ConsumirPlato.ScheduledUtilization          .14794    
+RecogerMenu.NumberSeized                    9.0000    
+RecogerMenu.ScheduledUtilization            .24759    
+T.E.EspecialPlato.NumberSeized              3.0000    
+T.E.EspecialPlato.ScheduledUtilization      .23121    
+EntregaBandeja.NumberSeized                 1.0000    
+EntregaBandeja.ScheduledUtilization         .01921    
+EntregaBandeja1.NumberSeized                .00000    
+EntregaBandeja1.ScheduledUtilization        .00000    
+System.NumberOut                            1.0000    
+
+
+Simulation run time: 0.75 minutes.
+Simulation run complete.

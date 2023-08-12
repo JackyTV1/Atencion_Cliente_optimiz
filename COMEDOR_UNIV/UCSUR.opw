@@ -1,0 +1,30 @@
+[RESOURCES]
+ConsumirMenu
+Caja
+ConsumirPlato
+RecogerMenu
+T.E.EspecialPlato
+EntregaBandeja
+EntregaBandeja1
+[VARIABLES]
+Poner en su lugar.NumberOut
+Plato especial?.NumberOut True
+Llegada de clientes.NumberOut
+Poner en su lugar2.NumberOut
+Esperar en mesa.NumberOut
+Salir de comedor.NumberOut
+Esperar en mesa.NumberIn
+Comsumir Menu.NumberIn
+Comsumir Menu.NumberOut
+RecibirPlato.NumberIn
+Consumir Plato.NumberIn
+EleccionPlato y Pago.NumberIn
+Recoger menu.NumberIn
+RecibirPlato.NumberOut
+Consumir Plato.NumberOut
+Salir de comedor1.NumberOut
+EleccionPlato y Pago.NumberOut
+Poner en su lugar.NumberIn
+Poner en su lugar2.NumberIn
+Recoger menu.NumberOut
+Plato especial?.NumberOut False
